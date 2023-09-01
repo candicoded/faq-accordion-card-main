@@ -27,6 +27,56 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   font-size: 12px;
   background: var(--background-gradient) no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: var(--Very-dark-grayish-blue);
+}
+
+.woman-img, .woman-img-shadow {
+  position: absolute;
+  align-self: center;
+}
+
+.woman-img {
+  width: 60%;
+}
+
+main {
+  background-color: white;
+  border-radius: 1.5em;
+  margin: 2em;
+  padding: 2em;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 4em;
+  margin-bottom: 0.8em;
+  font-size: 2rem;
+  color: var(--Very-dark-desaturated-blue);
+}
+
+.question {
+  padding: 1em 0;
+}
+
+.question::after {
+  content: url(/images/icon-arrow-down.svg);
+  float: right;
+}
+
+.answer {
+  display: none;
+}
+
+hr {
+  border: 1px solid var(--Light-grayish-blue);
 }
 
 footer {
