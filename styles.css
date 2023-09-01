@@ -101,7 +101,10 @@ footer {
 
   main {
     box-shadow: 10px 10px 10px var(--Very-dark-grayish-blue);
-    max-width: 60%;
+    max-width: 50%;
+    padding: 5em;
+    position: relative;
+    overflow: hidden;
   }
 
   h1 {
@@ -110,7 +113,15 @@ footer {
   }
 
   .faq-col {
-    width: 30%;
+    width: 40%;
+    margin-left: 35em;
+  }
+
+  main::before {
+    content: url(/images/illustration-woman-online-desktop.svg);
+    position: absolute;
+    left: -30px;
+    bottom: 30px;
   }
 
   .question:hover {
