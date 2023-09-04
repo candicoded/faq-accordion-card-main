@@ -93,8 +93,8 @@ footer {
 
   main {
     box-shadow: 10px 10px 10px var(--neutral-text-very-dark-blue);
-    width: 920px;
-    height: 509px;
+    width: 900px;
+    height: 475px;
     padding: 5em;
     display: flex;
     justify-content: center;
