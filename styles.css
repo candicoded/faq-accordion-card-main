@@ -1,20 +1,16 @@
 :root {
-  /*Primary Text*/
-  --Very-dark-desaturated-blue: hsl(238, 29%, 16%);
-  --Soft-red: hsl(14, 88%, 65%);
+  --primary-text-dark-blue: hsl(238, 29%, 16%);
+  --primary-text-red: hsl(14, 88%, 65%);
 
-  /*Background Gradient*/
   --background-gradient: linear-gradient(
     hsl(273, 75%, 66%),
     hsl(240, 73%, 65%)
   );
 
-  /* Neutral Text*/
-  --Very-dark-grayish-blue: hsl(237, 12%, 33%);
-  --Dark-grayish-blue: hsl(240, 6%, 50%);
+  --neutral-text-very-dark-blue: hsl(237, 12%, 33%);
+  --neutral-text-dark-blue: hsl(240, 6%, 50%);
 
-  /*Dividers*/
-  --Light-grayish-blue: hsl(240, 5%, 91%);
+  --divider-blue: hsl(240, 5%, 91%);
 }
 
 * {
@@ -31,7 +27,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  color: var(--Very-dark-grayish-blue);
+  color: var(--neutral-text-very-dark-blue);
 }
 
 .woman-img, .woman-img-shadow {
@@ -63,7 +59,7 @@ h1 {
   margin-top: 3em;
   margin-bottom: 0.8em;
   font-size: 2rem;
-  color: var(--Very-dark-desaturated-blue);
+  color: var(--primary-text-dark-blue);
 }
 
 .question {
@@ -80,7 +76,7 @@ h1 {
 }
 
 hr {
-  border: 1px solid var(--Light-grayish-blue);
+  border: 1px solid var(--divider-blue);
 }
 
 footer {
@@ -96,7 +92,7 @@ footer {
 @media screen and (min-width:1440px) {
 
   main {
-    box-shadow: 10px 10px 10px var(--Very-dark-grayish-blue);
+    box-shadow: 10px 10px 10px var(--neutral-text-very-dark-blue);
     width: 920px;
     height: 509px;
     padding: 5em;
@@ -117,22 +113,32 @@ footer {
   }
 
   .woman-img, .woman-img-shadow {
-    width: 50%;
     position: absolute;
   }
   
   .woman-img {
-    left: -30px;
+    width: 50%;
+    left: -50px;
     top: 50px;
+    z-index: 1;
   }
   
   .woman-img-shadow {
-      left: -30px;
-      top: 100px;
+      left: -230px;
+      top: -100px;
+  }
+
+  .faq-col {
+    padding: 0 4em;
+  }
+
+  .question {
+    padding: 1.5em 0;
+    font-size: 0.8rem;
   }
 
   .question:hover {
-    color: var(--Soft-red);
+    color: var(--primary-text-red);
     cursor: pointer;
   }
 }
