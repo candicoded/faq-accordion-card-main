@@ -53,7 +53,7 @@ main {
   background-color: white;
   border-radius: 1.5em;
   margin: 2em;
-  padding: 2em;
+  padding: 2em 2em 4em 2em;
   width: 90%;
   position: relative;
 }
@@ -95,15 +95,15 @@ footer {
 
 @media screen and (min-width:1440px) {
 
-  .woman-img, .woman-img-shadow {
-    display: none;
-  }
-
   main {
     box-shadow: 10px 10px 10px var(--Very-dark-grayish-blue);
-    max-width: 50%;
+    width: 920px;
+    height: 509px;
     padding: 5em;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
     overflow: hidden;
   }
 
@@ -112,16 +112,23 @@ footer {
     margin-top: 0;
   }
 
-  .faq-col {
-    width: 40%;
-    margin-left: 35em;
+  .faq-col, .desktop-img-col {
+    flex: 50%;
   }
 
-  main::before {
-    content: url(/images/illustration-woman-online-desktop.svg);
+  .woman-img, .woman-img-shadow {
+    width: 50%;
     position: absolute;
+  }
+  
+  .woman-img {
     left: -30px;
-    bottom: 30px;
+    top: 50px;
+  }
+  
+  .woman-img-shadow {
+      left: -30px;
+      top: 100px;
   }
 
   .question:hover {

@@ -12,16 +12,28 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | FAQ Accordion Card</title>
   </head>
   <body>
     <main>
-      <img src="/images/illustration-woman-online-mobile.svg" alt="woman illustration" class="woman-img">
-      <img src="/images/bg-pattern-mobile.svg" alt="llustration shadow" class="woman-img-shadow">
+      <section class="desktop-img-col">
+        <picture>
+          <source srcset="/images/illustration-woman-online-desktop" media="(min-width: 1440px)">
+          <img src="/images/illustration-woman-online-mobile.svg" alt="woman illustration" class="woman-img">
+        </picture>
+
+        <picture>
+          <source srcset="/images/bg-pattern-desktop" media="(min-width: 1440px)">
+          <img src="/images/bg-pattern-mobile.svg" alt="illustration shadow" class="woman-img-shadow">
+        </picture>
+      </section>
 
       <section class="faq-col">
         <h1>FAQ</h1>
@@ -29,10 +41,10 @@
         <section>
           <div class="question">How many team members can I invite?</div>
           <div class="answer">
-            You can invite up to 2 additional users on the Free plan. There is no
-            limit on team members for the Premium plan.
+            You can invite up to 2 additional users on the Free plan. There is
+            no limit on team members for the Premium plan.
           </div>
-          <hr>
+          <hr />
         </section>
 
         <section>
@@ -41,16 +53,16 @@
             No more than 2GB. All files in your account must fit your allotted
             storage space.
           </div>
-          <hr>
+          <hr />
         </section>
 
         <section>
           <div class="question">How do I reset my password?</div>
           <div class="answer">
-            Click “Forgot password” from the login page or “Change password” from
-            your profile page. A reset link will be emailed to you.
+            Click “Forgot password” from the login page or “Change password”
+            from your profile page. A reset link will be emailed to you.
           </div>
-          <hr>
+          <hr />
         </section>
 
         <section>
@@ -59,18 +71,18 @@
             Yes! Send us a message and we’ll process your request no questions
             asked.
           </div>
-          <hr>
+          <hr />
         </section>
 
         <section>
           <div class="question">Do you provide additional support?</div>
           <div class="answer">
-            Chat and email support is available 24/7. Phone lines are open during
-            normal business hours.
+            Chat and email support is available 24/7. Phone lines are open
+            during normal business hours.
           </div>
-          <hr>
+          <hr />
         </section>
-    </section>
+      </section>
     </main>
 
     <footer>
@@ -79,7 +91,7 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Candice</a>.
     </footer>
-    
+
     <script src="script.js"></script>
   </body>
 </html>
