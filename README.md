@@ -33,7 +33,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
+I learned a lot about pseudo elements in CSS and how to manipulate them in JavaScript. I also learned more about positioning in CSS.
