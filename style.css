@@ -118,7 +118,7 @@ footer {
   }
 
   body::before {
-    content: url(/images/illustration-box-desktop.svg);
+    content: url(./images/illustration-box-desktop.svg);
     position: absolute;
     left: 226px;
     bottom: 220px;
