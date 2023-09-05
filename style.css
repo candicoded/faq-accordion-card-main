@@ -78,7 +78,7 @@ h1 {
   font-weight: bold;
 }
 
-.question.active-question::after {
+.active-question::after {
   transform: rotate(180deg);
 }
 
