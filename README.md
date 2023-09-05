@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/faq-accordion-card-html-css-javascript-DMJypB9l3w
+- Live Site URL: https://candicoded.github.io/faq-accordion-card-main/
 
 ## My process
 
@@ -33,7 +33,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
+I learned a lot about pseudo elements in CSS and how to manipulate them in JavaScript. I also learned more about positioning in CSS.
