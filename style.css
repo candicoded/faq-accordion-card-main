@@ -65,6 +65,7 @@ h1 {
 
 .question {
   padding: 1em 0;
+  cursor: pointer;
 }
 
 .question::after {
